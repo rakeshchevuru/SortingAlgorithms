@@ -3,4 +3,5 @@
 ################################################################################
 
 /SortingAlgorithms/obj
-/.vs/SortingAlgorithms/FileContentIndex
+/SortingAlgorithms/bin
+/.vs
