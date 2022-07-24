@@ -8,7 +8,9 @@ namespace SortingAlgorithms
         {
             var input = new int[] { 6, 56, 8, 2, 209, 4 };
 
-            new SelectionSort(input).Sort();
+            //new SelectionSort(input).Sort();
+            //new BubbleSort(input).Sort();
+            new InsertionSort(input).Sort();
 
             Console.WriteLine("Hello, World!");
         }
