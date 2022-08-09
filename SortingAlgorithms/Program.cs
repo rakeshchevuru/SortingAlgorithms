@@ -10,7 +10,9 @@ namespace SortingAlgorithms
 
             //new SelectionSort(input).Sort();
             //new BubbleSort(input).Sort();
-            new InsertionSort(input).Sort();
+           // new InsertionSort(input).Sort();
+            new MergeSort(input).Sort();
+         //   new HeapSort(input).Sort();
 
             Console.WriteLine("Hello, World!");
         }

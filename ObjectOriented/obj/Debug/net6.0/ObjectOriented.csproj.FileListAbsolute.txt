@@ -1,0 +1,5 @@
+C:\GitHub\SortingAlgorithms\ObjectOriented\obj\Debug\net6.0\ObjectOriented.csproj.AssemblyReference.cache
+C:\GitHub\SortingAlgorithms\ObjectOriented\obj\Debug\net6.0\ObjectOriented.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\SortingAlgorithms\ObjectOriented\obj\Debug\net6.0\ObjectOriented.AssemblyInfoInputs.cache
+C:\GitHub\SortingAlgorithms\ObjectOriented\obj\Debug\net6.0\ObjectOriented.AssemblyInfo.cs
+C:\GitHub\SortingAlgorithms\ObjectOriented\obj\Debug\net6.0\ObjectOriented.csproj.CoreCompileInputs.cache

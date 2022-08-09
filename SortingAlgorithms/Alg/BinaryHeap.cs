@@ -46,13 +46,11 @@ namespace SortingAlgorithms.Alg
          */
 
 
-        public void BuildHeap(int[] arr, int size)
+        public void BuildHeap(int size)
         {
-            int i;
-
-            for (i = size / 2; i >=0; i--)
+            for (int i = size / 2; i >=0; i--)
             {
-                MaxHeapify(arr, i, size);
+                MaxHeapify(Arr, i, size);
             }
         }
 
