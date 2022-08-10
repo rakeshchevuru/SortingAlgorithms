@@ -21,17 +21,17 @@ namespace SortingAlgorithms.Sort
 
         public void Sort()
         {
-            binaryHeap.BuildHeap(Arr.Length - 1);
+            PerformHeapSort(Arr.Length - 1);
         }
 
-        public void PerformHeapSort(int[] arr, int size)
+        public void PerformHeapSort(int size)
         {
             binaryHeap.BuildHeap(size);
 
             while (size > 0)
             {
 
-                Helpers.SwapWithTuple(arr, 0, size);
+                Helpers.SwapWithTuple(Arr, 0, size);
 
                 size--;
 

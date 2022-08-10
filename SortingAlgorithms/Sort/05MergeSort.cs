@@ -92,10 +92,16 @@ namespace SortingAlgorithms.Sort
 
         private void Merge2(int[] array, int start, int mid, int end)
         {
+            //The first thing to note is that the MergeArray() method takes four parameters.
+            //The leftArrayLength and rightArrayLength variables help us define temporary arrays to hold values during the sorting process:
+
             var leftArrayLength = mid - start + 1;
             var rightArrayLength = end - mid;
+
             var leftTempArray = new int[leftArrayLength];
             var rightTempArray = new int[rightArrayLength];
+
+            //We copy data into those temporary arrays using two loops as the next step:
 
             int i, j;
 
@@ -104,6 +110,11 @@ namespace SortingAlgorithms.Sort
 
             for (j = 0; j < rightArrayLength; ++j)
                 rightTempArray[j] = array[mid + 1 + j];
+
+
+            //We then proceed to compare the elements in the leftTempArray[i] and rightTempArray[j] objects and
+            //swap their positions if the element in the leftTempArray[i] is less than or equal to the element
+            //in the rightTempArray[j] object while storing them in the array[k] position in the merged array:
 
             i = 0;
             j = 0;
@@ -120,6 +131,8 @@ namespace SortingAlgorithms.Sort
                     array[k++] = rightTempArray[j++];
                 }
             }
+
+            //The process completes by copying any remaining elements from the leftTempArray[i] and the rightTempArray[j] objects into the merged array:
 
             while (i < leftArrayLength)
             {
