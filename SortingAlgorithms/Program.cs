@@ -62,7 +62,6 @@ namespace SortingAlgorithms
 
             var swaps = 0;
 
-
             var left = 0;
             var right = count - 1;
 
@@ -82,8 +81,6 @@ namespace SortingAlgorithms
 
                 while (s[l] != s[r])
                     r--;
-
-
 
                 if (l == r)
                 {
