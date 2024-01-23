@@ -17,14 +17,14 @@ namespace SortingAlgorithms.Alg
 
         public int Search(int key)
         {
-            var result = BinarySrch(0, Arr.Length - 1, key);
+            var result = BinarySrchRecursive(0, Arr.Length - 1, key);
 
             //If result is 1 then the key is found or else not present
             
             return result;
         }
 
-        public int BinarySrch(int start, int end, int key)
+        public int BinarySrchRecursive(int start, int end, int key)
         {
             if(start < end)
             {
@@ -34,9 +34,30 @@ namespace SortingAlgorithms.Alg
                     return 1;
 
                 if(Arr[mid] < key)
-                    BinarySrch(mid + 1, end, key);
+                    BinarySrchRecursive(mid + 1, end, key);
                 else
-                    BinarySrch(start, mid - 1, key);
+                    BinarySrchRecursive(start, mid - 1, key);
+
+            }
+
+            return 0;  
+        }
+
+        public int BinarySrchIterative(int start, int end, int key)
+        {
+            int mid;
+
+            while (start <= end)
+            {
+                mid = (start + end) / 2;
+
+                if (Arr[mid] == key)
+                    return 1;
+
+                if (Arr[mid] < key)
+                    start = mid + 1;
+                else
+                    end = mid - 1;
 
             }
 
