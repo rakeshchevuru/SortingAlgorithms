@@ -143,6 +143,10 @@ namespace SortingAlgorithms.Alg
                 if (Arr[index].Contains(value))
                 {
                     Arr[index].Remove(value);
+
+                    if (Arr[index].Count == 0)
+                        Arr[index] = null;
+
                     return 1;
                 }
             }
