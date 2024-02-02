@@ -36,6 +36,10 @@ namespace SortingAlgorithms.Alg
          *  Once swapped, re-check the maxheap property on the swapped node
          * 
          * ex: arr = [10, 20, 40, 30, 80, 60, 50]
+         * 
+         * left child = 2*i + 1
+         * right child = 2*i + 2
+         * 
          * size = 6 (last index of the array)
          * 
          *          10

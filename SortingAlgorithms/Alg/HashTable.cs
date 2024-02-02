@@ -144,9 +144,6 @@ namespace SortingAlgorithms.Alg
                 {
                     Arr[index].Remove(value);
 
-                    if (Arr[index].Count == 0)
-                        Arr[index] = null;
-
                     return 1;
                 }
             }

@@ -9,3 +9,14 @@
 /.vs
 ObjectOriented/obj
 ObjectOriented/bin
+ObjectOriented/obj/project.nuget.cache
+ObjectOriented/obj/project.assets.json
+ObjectOriented/obj/ObjectOriented.csproj.nuget.g.props
+ObjectOriented/obj/ObjectOriented.csproj.nuget.dgspec.json
+ObjectOriented/obj/Debug/net6.0/ObjectOriented.GeneratedMSBuildEditorConfig.editorconfig
+ObjectOriented/obj/Debug/net6.0/ObjectOriented.csproj.FileListAbsolute.txt
+ObjectOriented/obj/Debug/net6.0/ObjectOriented.csproj.CoreCompileInputs.cache
+ObjectOriented/obj/Debug/net6.0/ObjectOriented.csproj.AssemblyReference.cache
+ObjectOriented/obj/Debug/net6.0/ObjectOriented.assets.cache
+ObjectOriented/obj/Debug/net6.0/ObjectOriented.AssemblyInfoInputs.cache
+ObjectOriented/obj/Debug/net6.0/ObjectOriented.AssemblyInfo.cs
