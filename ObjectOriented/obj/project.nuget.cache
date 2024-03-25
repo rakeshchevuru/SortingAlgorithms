@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "8Zu1P4vl+iDBocboR8Y8M00Yudt86B+MxQZ5PbEz0TrwufnscEKEaSkaRHW/RrcWkrT0fyDyYE+LRXsbJ24OtA==",
+  "dgSpecHash": "zAkA0BOJ/Byj5aAw/roto6R9A4dlk+ck6MKZuqU6QOblZuvO8f1nBQs/ReIJbb+0cZOBAUmhfLd8r1ooOv/Kmg==",
   "success": true,
-  "projectFilePath": "C:\\GitHub\\SortingAlgorithms\\ObjectOriented\\ObjectOriented.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Repo\\SortingAlgorithms\\ObjectOriented\\ObjectOriented.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rakes\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\rakes\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\rakes\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512"
+  ],
   "logs": []
 }
